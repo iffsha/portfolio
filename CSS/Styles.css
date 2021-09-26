@@ -1,0 +1,139 @@
+body
+{
+
+  text-align:center;
+font-family:myFont;
+}
+@font-face
+ {
+  font-family:myFont;
+  src:url('Halena.ttf');
+}
+h1
+{
+  color:#66BFBF;
+  font-size: 60px;
+  line-height: 2;
+
+}
+hr{
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin-bottom: 100px;
+margin-top: 50px;
+}
+h2
+{
+    color:#66BFBF;
+}
+h3
+{
+  color:#66BFBF;
+}
+p
+{
+
+  font-weight: normal;
+font-size: 15px;
+line-height: 2;
+}
+.footer-link
+{
+  color:#11999E;
+  margin :40px 15px 80px auto;
+  padding-top: 20px;
+
+}
+.footer-discription
+{
+  color: white;
+margin: 90px auto 90px auto;
+}
+.skill-row
+{
+width: 50%;
+margin :100px auto 100px auto;
+text-align: left;
+
+}
+.skills-img
+{
+width:25%;
+float: left;
+padding-right: 30px;
+}
+.skills2-img
+{
+width:25%;
+float:right;
+padding-left: 30px;
+}
+.top-container
+{
+  background-color:#EAF6F6;
+;
+  padding-top: 50px;
+}
+.middle-container
+{
+
+  background-color: #EAF6F6
+;
+}
+
+.bottom-container
+{
+
+  background-color: #66BFBF;
+  height: 150px;
+  width: 100%;
+}
+.top_cloud
+{
+  position:relative;
+  left: 280px;
+  top: 30px;
+}
+.middle_cloud
+{
+position:absolute;
+
+}
+.birds
+{
+  position:absolute;
+  left: 900px;
+}
+.myButton {
+	box-shadow: 1px 0px 0px 2px #53afbd;
+	background:linear-gradient(to bottom, #599bb3 5%, #298a8a 100%);
+	background-color:#599bb3;
+	border-radius:10px;
+	border:1px solid #48b1b3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:19px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #298a8a 5%, #599bb3 100%);
+	background-color:#298a8a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.myButton
+{
+  margin: 20px auto 30px auto;
+}
